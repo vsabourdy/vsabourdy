@@ -3,7 +3,7 @@ locale                   : "en"
 title                    : "Vincent Sabourdy"
 title_separator          : "-"
 name                     : "Vincent Sabourdy"
-description              : "An amazing website."
+description              : "An amazing blog."
 url                      : "https://vsabourdy.github.io"
 baseurl                  : "/" 
 repository               : "vsabourdy/vsabourdy" 
@@ -18,15 +18,13 @@ comments:
 # Analytics
 analytics:
   provider               : false 
-  google:
-    tracking_id          :
 
 
 # Site Author
 author:
   name             : "Vincent SABOURDY"
   avatar           : 
-  bio              : "I am an amazing person, omg."
+  bio              : 
   location         : "Somewhere in France"
   email            : "vincent.sabourdy1@gmail.com"
   bitbucket        :
@@ -153,5 +151,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
